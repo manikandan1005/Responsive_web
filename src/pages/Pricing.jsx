@@ -1,5 +1,5 @@
 import {Typography,Rate, Button, Card} from "antd"
-import { useState } from "react";
+import img from "../assets/user-cover-1.png"
 function Pricing(){
     const { Title } = Typography;
     const testimonials = [
@@ -8,21 +8,21 @@ function Pricing(){
     description: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",
     name: "Regina Miles",
     role: "Designer",
-    image: "path/to/image1.jpg"
+    image: img
   },
   {
     rating: 4,
     description: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",
     name: "Regina Miles",
     role: "Designer",
-    image: "path/to/image2.jpg"
+    image: img
   },
   {
     rating: 4,
     description: "Slate helps you see how many more days you need to work to reach your financial goal for the month and year.",
     name: "Regina Miles",
     role: "Designer",
-    image: "path/to/image3.jpg"
+    image: img
   }
 ];
 
@@ -46,7 +46,7 @@ function Pricing(){
                                     <Rate disabled defaultValue={data.rating} />
                                     <p>{data.description}</p>
                                     <div className="flex justify-center items-center gap-3">
-                                        <img src="" className="w-15 h-15 rounded-full" alt="" />
+                                        <img src={data.image} className="w-15 h-15 rounded-full" alt="" />
                                         <div className="flex flex-col">
                                             <p className="text-[#E74040] font-bold">{data.name}</p>
                                             <p className="font-semibold">{data.role}</p>
