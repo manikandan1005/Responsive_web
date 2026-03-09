@@ -33,7 +33,7 @@ export default function Footer() {
         ]
     };
     return (
-        <div className='flex  mx-10 lg:mx-45 items-center justify-center  lg:py-25 text-gray-600' >
+        <div className='flex   mx-10 lg:mx-45 items-center justify-center  lg:py-15 text-gray-600' >
             <div className='grid grid-cols-2 gap-10 lg:gap-1 md:grid-cols-3 lg:grid-cols-5'>
                 <div className='flex flex-col gap-3'>
                     <h1 style={{ color: "#000", fontWeight: 700, }}>Company Info</h1>

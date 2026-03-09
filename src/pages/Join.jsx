@@ -4,7 +4,7 @@ export default function
 () {
     const {Title}=Typography
   return (
-    <div className='flex items-center justify-center '>
+    <div className='flex mt-15 items-center justify-center '>
         <div className='lg:mx-45 mx-10 my-20'>
             <div className='flex items-center justify-center'>
                             <div className='text-center flex flex-col w-3/4' >

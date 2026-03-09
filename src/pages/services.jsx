@@ -52,7 +52,7 @@ function Service() {
             <p className="text-gray-500 font-medium">Problems trying to resolve the conflict between <br /> the two major realms of Classical physics: Newtonian mechanics</p>
           </div>
           {/* card */}
-          <div className="flex gap-7 mt-13 w-full flex-wrap justify-between">
+          <div className="flex gap-7 mt-13 w-full items-center flex-wrap justify-center">
             {
               cardsData.map((data, index) => (
                 <div key={index} className=" relative h-100 w-[350px] h-[622px]">
